@@ -70,12 +70,12 @@ body {
     margin-left: 10px;
 }
 
-.btn-2-logo,.btn-3-logo {
-   
-}
 
-.btn:hover {
+
+.btn-1,.btn-2,.btn-3:hover {
     cursor: pointer;
+    background-color: bisque;
+    
 }
 
 .nav-container>span {
@@ -140,7 +140,72 @@ body {
     font-weight:400 ;
 }
 
+/* about related style */
 
+.About-section {
+    width: 100%;
+    max-width: 1600px;
+    height: 646px;
+    background-color: #1A0B2E;
+    margin: 0 auto;
+    padding: 20px 20px;
+    
+}
+
+.About-info {
+    text-align: center;
+    align-items: center;
+    width: 1200px;
+    height: 222px;
+    margin: 20px auto;
+    border-bottom: 1px solid   rgba(65, 37, 103, 1);
+    padding-bottom: 80px;
+}
+
+.About-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.About-info>p {
+    color: white;
+    font-size: 1rem;
+    font-weight:400 ;
+    line-height: 2;
+}
+
+.text-gap {
+    line-height: 6;
+}
+
+.About-history{
+    width: 1200px;
+    height: 94px;
+    margin: 100px auto;
+}
+
+.About-list-item {
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 80px; */
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.list-title {
+    font-size:3rem ;
+    font-weight: 900;
+    color: #00FF88;
+}
+
+.About-history>p {
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 
 
